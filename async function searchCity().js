@@ -1,6 +1,6 @@
 async function searchCity() {
     const city = document.getElementById("city").value;
-    const API_KEY = "21c066d04e433a78a200e5b319e302ed";  // Replace
+    const API_KEY = "6f09dc1c4e5f75df9e34bca39ae24ed4";  // Replace
 
     document.getElementById("output").innerText = "Loading...";
 
@@ -34,3 +34,4 @@ async function searchCity() {
         `Wind: ${weatherData.wind.speed} m/s\n` +
         `Weather: ${weatherData.weather[0].description}`;
 }
+
